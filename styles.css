@@ -34,11 +34,11 @@ button,input,textarea,select{font:inherit}
 .site-header{position:fixed;inset:0 0 auto;z-index:1000;background:rgba(247,246,242,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--line-soft);transition:.3s}
 .site-header.scrolled{background:rgba(255,255,255,.97);box-shadow:0 1px 0 var(--line),0 18px 40px rgba(20,20,20,.05)}
 .nav-wrap{height:84px;display:flex;align-items:center;justify-content:space-between}
-.brand{display:flex;align-items:center;gap:12px;color:var(--charcoal)}
-.brand-mark{width:44px;height:44px;flex:0 0 auto;display:block;object-fit:contain}
+.brand{display:flex;align-items:center;gap:14px;color:var(--charcoal)}
+.brand-mark{width:52px;height:52px;flex:0 0 auto;display:block;object-fit:contain}
 .brand-text{display:flex;flex-direction:column;line-height:1}
-.brand-wordmark{height:17px;width:auto;display:block;object-fit:contain}
-.brand-text small{font:600 8px 'JetBrains Mono',monospace;letter-spacing:.15em;color:var(--graphite);margin-top:7px}
+.brand-wordmark{height:23px;width:auto;display:block;object-fit:contain}
+.brand-text small{font:600 8px 'JetBrains Mono',monospace;letter-spacing:.15em;color:var(--graphite);margin-top:8px}
 .main-nav{display:flex;align-items:center;gap:30px;font-size:12px;font-weight:600}
 .main-nav>a:not(.nav-cta){color:var(--graphite2)}
 .main-nav>a:not(.nav-cta):hover{color:var(--red)}
