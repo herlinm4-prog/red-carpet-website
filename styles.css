@@ -37,8 +37,8 @@ button,input,textarea,select{font:inherit}
 .brand{display:flex;align-items:center;gap:12px;color:var(--charcoal)}
 .brand-mark{width:44px;height:44px;flex:0 0 auto;display:block;object-fit:contain}
 .brand-text{display:flex;flex-direction:column;line-height:1}
-.brand-text strong{font:700 15px 'Space Grotesk',sans-serif;letter-spacing:.09em}
-.brand-text small{font:600 8px 'JetBrains Mono',monospace;letter-spacing:.15em;color:var(--graphite);margin-top:6px}
+.brand-wordmark{height:17px;width:auto;display:block;object-fit:contain}
+.brand-text small{font:600 8px 'JetBrains Mono',monospace;letter-spacing:.15em;color:var(--graphite);margin-top:7px}
 .main-nav{display:flex;align-items:center;gap:30px;font-size:12px;font-weight:600}
 .main-nav>a:not(.nav-cta){color:var(--graphite2)}
 .main-nav>a:not(.nav-cta):hover{color:var(--red)}
