@@ -4,6 +4,25 @@ const nav = document.querySelector('.main-nav');
 const year = document.getElementById('year');
 const form = document.getElementById('assessmentForm');
 
+// Keep the stable V2 markup intact and skin its existing brand mark with the uploaded PNG.
+const brandLogoStyle = document.createElement('style');
+brandLogoStyle.textContent = `
+.brand-mark{
+  width:58px!important;
+  height:58px!important;
+  border:0!important;
+  border-radius:0!important;
+  background:transparent url('assets/54088169-EF1E-4D89-AE16-D4F6D1EBDDCC.png?v=2') center/contain no-repeat!important;
+  color:transparent!important;
+  box-shadow:none!important;
+  overflow:visible!important;
+}
+.brand-mark::before,.brand-mark::after{display:none!important}
+footer .brand-mark{width:66px!important;height:66px!important}
+@media(max-width:680px){.brand-mark{width:48px!important;height:48px!important}}
+`;
+document.head.appendChild(brandLogoStyle);
+
 year.textContent = new Date().getFullYear();
 
 window.addEventListener('scroll', function () {
