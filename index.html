@@ -9,16 +9,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=5">
+<link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
 
 <header class="site-header" id="top">
   <div class="container nav-wrap">
     <a class="brand" href="#top">
-      <img class="brand-mark" src="assets/54088169-EF1E-4D89-AE16-D4F6D1EBDDCC.png?v=5" alt="Red Carpet emblem">
+      <img class="brand-mark" src="assets/54088169-EF1E-4D89-AE16-D4F6D1EBDDCC.png?v=6" alt="Red Carpet emblem">
       <span class="brand-text">
-        <img class="brand-wordmark" src="assets/red-carpet-wordmark.png?v=5" alt="Red Carpet">
+        <img class="brand-wordmark" src="assets/red-carpet-wordmark.png?v=6" alt="Red Carpet">
         <small>COMMERCIAL PROPERTY SERVICES CO.</small>
       </span>
     </a>
@@ -26,7 +26,7 @@
     <nav class="main-nav">
       <a href="#services">Services</a>
       <a href="#ladder">Advantage</a>
-      <a href="#work">Work</a>
+      <a href="#catalog">Work</a>
       <a href="#process">Process</a>
       <a class="nav-cta" href="#assessment">Request Assessment <b>↗</b></a>
     </nav>
@@ -35,28 +35,26 @@
 
 <main>
 
-  <!-- HERO -->
+  <!-- HERO — light, split, real photo up front for a strong first impression -->
   <section class="hero">
-    <div class="hero-photo"></div>
-    <div class="hero-shade"></div>
-    <div class="hero-redline"></div>
-    <div class="container hero-inner">
-      <div class="hero-copy-wrap reveal">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
         <div class="eyebrow"><i></i>COMMERCIAL PROPERTY SERVICES COMPANY</div>
-        <h1>Complete property<br>solutions.<br><em>One reliable team.</em></h1>
+        <h1>Complete property solutions.<br><em>One reliable team.</em></h1>
         <p>Cleaning, maintenance, remodeling and construction for commercial properties across Miami — coordinated by a single accountable team.</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="#assessment">Request a Free Site Assessment <span>↗</span></a>
           <a class="text-link" href="#services">Explore capabilities <span>↓</span></a>
         </div>
-      </div>
-      <div class="hero-bottom">
-        <div class="hero-statement">Cleaning · Maintenance · Remodeling · Construction<br><strong>Built Better. Cleaner Spaces.</strong></div>
         <div class="hero-proof">
           <div><strong>5+</strong><span>YEARS EXPERIENCE</span></div>
           <div><strong>04</strong><span>SERVICE DIVISIONS</span></div>
           <div><strong>MIA</strong><span>MIAMI FOCUSED</span></div>
         </div>
+      </div>
+      <div class="hero-visual reveal">
+        <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1100&q=88" alt="Commercial cleaning team at work">
+        <div class="hero-visual-tag"><small>ON-SITE TODAY</small><strong>Commercial Care</strong></div>
       </div>
     </div>
   </section>
@@ -147,11 +145,49 @@
     </div>
   </section>
 
+  <!-- CATALOG — a real photo for each of the four services -->
+  <section class="catalog section" id="catalog">
+    <div class="container">
+      <div class="section-head reveal">
+        <div><span class="section-kicker"><i></i>THE CATALOG / 01—04</span><h2>Every capability,<br><span>shown at work.</span></h2></div>
+        <p>A real look at what Red Carpet coordinates on a property, from daily upkeep to full construction.</p>
+      </div>
+      <div class="catalog-grid">
+        <article class="catalog-card reveal">
+          <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1000&q=88" alt="Commercial cleaning crew at work">
+          <div class="catalog-overlay"></div>
+          <div class="catalog-index">01 / CLEANING</div>
+          <div class="catalog-caption"><h3>Commercial Cleaning</h3><span>Recurring care · Common areas · Deep cleaning</span></div>
+        </article>
+        <article class="catalog-card reveal">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=88" alt="Commercial property exterior">
+          <div class="catalog-overlay"></div>
+          <div class="catalog-index">02 / MAINTENANCE</div>
+          <div class="catalog-caption"><h3>Property Maintenance</h3><span>Preventive care · Repairs · Service plans</span></div>
+        </article>
+        <article class="catalog-card reveal">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=88" alt="Commercial remodeling interior">
+          <div class="catalog-overlay"></div>
+          <div class="catalog-index">03 / REMODELING</div>
+          <div class="catalog-caption"><h3>Commercial Remodeling</h3><span>Interiors · Finishes · Upgrades</span></div>
+        </article>
+        <article class="catalog-card reveal">
+          <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=88" alt="Commercial construction crew at work">
+          <div class="catalog-overlay"></div>
+          <div class="catalog-index">04 / CONSTRUCTION</div>
+          <div class="catalog-caption"><h3>Construction Services</h3><span>Build-outs · Renovations · Coordination</span></div>
+        </article>
+      </div>
+      <p class="catalog-note reveal">Sample photography shown for presentation. Swaps in for Red Carpet's own project and team photos.</p>
+    </div>
+  </section>
+
   <!-- ADVANTAGE -->
   <section class="advantage section" id="advantage">
     <div class="container advantage-grid">
       <div class="reveal">
         <div class="frame">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1100&q=88" alt="Miami commercial architecture">
           <div class="frame-caption"><small>MIAMI / FLORIDA</small><strong>PROPERTY<br>OPERATIONS</strong></div>
         </div>
       </div>
@@ -169,41 +205,19 @@
     </div>
   </section>
 
-  <!-- WORK — one photography moment -->
-  <section class="work section" id="work">
-    <div class="container">
-      <div class="section-head reveal">
-        <div><span class="section-kicker"><i></i>SELECTED CAPABILITIES</span><h2>From daily upkeep<br><span>to transformation.</span></h2></div>
-        <p>The range of what Red Carpet can coordinate, from one property to the next.</p>
-      </div>
-      <div class="work-grid">
-        <article class="work-card work-main reveal">
-          <div class="work-image"></div><div class="work-overlay"></div>
-          <div class="work-index">01 / COMMERCIAL CARE</div>
-          <div class="work-caption"><h3>Commercial environments<br>that stay presentation-ready.</h3><span>Recurring care · Common areas</span></div>
-        </article>
-        <article class="work-card work-remodel reveal">
-          <div class="work-image"></div><div class="work-overlay"></div>
-          <div class="work-index">02 / REMODELING</div>
-          <div class="work-caption"><h3>Spaces made<br>relevant again.</h3><span>Interiors · Finishes</span></div>
-        </article>
-        <article class="work-card work-build reveal">
-          <div class="work-image"></div><div class="work-overlay"></div>
-          <div class="work-index">03 / CONSTRUCTION</div>
-          <div class="work-caption"><h3>Execution from<br>scope to finish.</h3><span>Build-outs · Renovations</span></div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- STATEMENT — one bold typographic moment -->
+  <!-- PEOPLE — real photo + one bold line -->
   <section class="statement section">
-    <div class="container reveal">
-      <span class="section-kicker" style="justify-content:center"><i></i>THE PEOPLE BEHIND THE WORK<i></i></span>
-      <p class="statement-lead">Standards are only real when the team delivers.</p>
-      <p class="statement-sub">Red Carpet's people are a core business asset — the professionals clients trust inside their properties and around their operations.</p>
-      <div class="statement-meta">FOUNDER-LED · MIAMI-BASED · 5+ YEARS</div>
-      <div class="pill-row"><span>Professional</span><span>Responsive</span><span>Detail-oriented</span><span>Accountable</span></div>
+    <div class="container statement-grid">
+      <div class="statement-photo reveal">
+        <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=88" alt="Red Carpet field crew on a commercial property">
+      </div>
+      <div class="reveal">
+        <span class="section-kicker"><i></i>THE PEOPLE BEHIND THE WORK</span>
+        <p class="statement-lead">Standards are only real when the team delivers.</p>
+        <p class="statement-sub">Red Carpet's people are a core business asset — the professionals clients trust inside their properties and around their operations.</p>
+        <div class="statement-meta">FOUNDER-LED · MIAMI-BASED · 5+ YEARS</div>
+        <div class="pill-row"><span>Professional</span><span>Responsive</span><span>Detail-oriented</span><span>Accountable</span></div>
+      </div>
     </div>
   </section>
 
@@ -224,7 +238,7 @@
     </div>
   </section>
 
-  <!-- ASSESSMENT / FINAL CTA -->
+  <!-- ASSESSMENT / FINAL CTA — light, warm, no dark section -->
   <section class="assessment section" id="assessment">
     <div class="assessment-bg"></div>
     <div class="container assessment-grid">
@@ -261,9 +275,9 @@
 <footer>
   <div class="container footer-grid">
     <a class="brand" href="#top">
-      <img class="brand-mark" src="assets/54088169-EF1E-4D89-AE16-D4F6D1EBDDCC.png?v=5" alt="Red Carpet emblem">
+      <img class="brand-mark" src="assets/54088169-EF1E-4D89-AE16-D4F6D1EBDDCC.png?v=6" alt="Red Carpet emblem">
       <span class="brand-text">
-        <img class="brand-wordmark" src="assets/red-carpet-wordmark.png?v=5" alt="Red Carpet">
+        <img class="brand-wordmark" src="assets/red-carpet-wordmark.png?v=6" alt="Red Carpet">
         <small>COMMERCIAL PROPERTY SERVICES</small>
       </span>
     </a>
@@ -272,6 +286,6 @@
   </div>
 </footer>
 
-<script src="script.js?v=5"></script>
+<script src="script.js?v=6"></script>
 </body>
 </html>
